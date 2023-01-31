@@ -15,8 +15,8 @@ while (true)
         System.Console.WriteLine("Вы ввели не трёхзначное число, попробуйте снова: ");
         continue;
     }
-    
-    N= N/10 % 10;
+
+    N = N / 10 % 10;
     Console.WriteLine($"Вторая цифра введенного вами числа: {N}");
     break;
 }
