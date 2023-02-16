@@ -42,7 +42,6 @@ double Min(double[] array)
 }
 while (true)
 {
-    int count = 0;
     Console.WriteLine("Разница max & min элементов массива.");
     Console.WriteLine("Введите размер массива: ");
     int N = UserRead();
