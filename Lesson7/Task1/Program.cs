@@ -28,9 +28,9 @@ void PrintArray(double[,] array)
     }
 }
 
-Console.WriteLine("Введите количество столбцов:");
-int N = UserRead();
 Console.WriteLine("Введите количество строк:");
+int N = UserRead();
+Console.WriteLine("Введите количество столбцов:");
 int M = UserRead();
 double[,] array = new double[N, M];
 FillArray(N, M, array);
